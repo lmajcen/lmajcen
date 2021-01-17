@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mjenjačnica HARON</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id= "naslovnica">
+                    <h1>Mjenjačnica <span class="highlight">HARON</span></h1>
+                </div>  
+                <nav>
+                <ul>
+                    <li><a href="index.php">Početna</a></li>
+                    <li><a href="usluga.php">Usluga</a></li>
+                    <li><a href="o_autoru.html">O autoru</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="PodaciAutor">
+            <div class="box">
+                <h1> Slika autora: </h1>
+                <img src="./img/autor.jpg" width="300" height="400" >
+            </div>
+        </section>
+
+        <section id="PodaciAutorTekst">
+            <div class="box">
+                <h1> Podaci o autoru: </h1>
+                <form action="/action_page.php">
+                    <label for="Ime">Ime:</label><br>
+                    <input type="text" id="Ime" value="Luka" readonly><br>
+                    <label for="Prezime">Prezime:</label><br>
+                    <input type="text" id="Prezime" value="Majcen" readonly><br>
+                    <label for="E-mail">E-mail:</label><br>
+                    <input type="text" id="E-mail" value="lmajcen@foi.hr" readonly><br>
+                    <label for="Broj indeksa:">Broj indeksa:</label><br>
+                    <input type="text" id="Broj indeksa" value="/" readonly><br>
+                    <label for="Centar">Centar:</label><br>
+                    <input type="text" id="Centar" value="Varazdin" readonly><br>
+                    <label for="Godina">Godina:</label><br>
+                    <input type="text" id="Godina" value="2019/2020" readonly><br>
+                </form>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p> Kontakt: 095/456-4563</p>
+            <p>E-mail: mjenjacnicaharon@yopmail.com</p>
+        </div>
+
+    </body>
+</html>
